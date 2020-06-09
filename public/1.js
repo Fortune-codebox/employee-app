@@ -418,21 +418,22 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("Navbar"),
-      _vm._v(" "),
-      _c("div", { staticClass: "container-fluid mt-4" }, [
-        _c("div", { staticClass: "row" }, [
+  return _c("div", [
+    _c(
+      "div",
+      { staticClass: "container mt-5" },
+      [
+        _c("Navbar"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mt-4 ml-2" }, [
           _c("div", { staticClass: "col-3" }, [_c("Sidebar")], 1),
           _vm._v(" "),
           _c("div", { staticClass: "col-9" }, [_c("router-view")], 1)
         ])
-      ])
-    ],
-    1
-  )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

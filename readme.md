@@ -1,14 +1,22 @@
-## Installation Process
+## Installation Process and setup For Laravel Api and Migrations
 ### commands
 step 1 : Navigate into the root folder of rest-api via cmd or any power shell 
 
 step 2: --composer install >> installs necessary tools and dependencies which already exists in the composer.json file
 
-step 3 : manually create a database with the name : employee_api before 
+step 3 : manually create a database with the name : "employee_api" before 
 
-step 4 : --php artisan migrate >> runs the migration files and creates database tables
+step 4 : php artisan migrate >> runs the migration files and creates database tables
 
-step 5 : --php artisan serve >> serves the project and ready for connections
+step 5 : php artisan serve >> serves the project and ready for connections
+
+
+## Front End Setup
+step 1: npm install >> installs necessary tools and dependencies which already exists in the package.json file
+
+step 2: npm run watch >> watches or serves the vue frontend setup
+
+then visit your url : http:localhost:8000/, 
 
 
 ## Contributing

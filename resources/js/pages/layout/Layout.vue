@@ -1,10 +1,9 @@
 <template>
     <div>
-         <Navbar />
-
          
-        <div class="container-fluid mt-4">
-            <div class="row" >
+        <div class="container mt-5">
+            <Navbar />
+            <div class="row mt-4 ml-2" >
                 <div class="col-3" >
                     <Sidebar/>
                 </div>
